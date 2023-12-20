@@ -126,7 +126,6 @@ function Calculadora() {
 
     return ( 
         <div className="calculadora">
-            <img src={imagen} alt="" />
             <Pantalla prev={formatNum(prev)} op={op} curr={curr} />
             <button onClick={() => dispatch({ type: acciones.LIMPIAR })}>ac</button>
             <button onClick={() => dispatch({ type: acciones.BORRAR_DIGITO })}>del</button>
